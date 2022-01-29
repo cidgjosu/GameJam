@@ -59,6 +59,8 @@ public class player_controller : MonoBehaviour
             gameObject.transform.position = originalPos;
             movement = new Vector2(0, 0);
             _body.velocity = movement;
+            _render.color = new Color(1, 1, 1);
+             gameObject.layer = 6;
         }
     }
 
